@@ -35,25 +35,17 @@
 ```bash
 git clone https://github.com/O1korn/rahul-selenium-tests.git
 cd rahul-selenium-tests
-Встановіть залежності:
 
-bash
-Копіювати
-Редагувати
+Встановіть залежності:
 npm install
+
 Запуск тестів
 Запуск Cypress в інтерактивному режимі:
-
-bash
-Копіювати
-Редагувати
 npx cypress open
-Запуск тестів у headless режимі (без UI):
 
-bash
-Копіювати
-Редагувати
+Запуск тестів у headless режимі (без UI):
 npx cypress run
+
 Залежності
 Node.js (рекомендовано версія 22.x)
 
@@ -62,9 +54,7 @@ Cypress (версія 14.5.0)
 Інші пакети, зазначені в package.json
 
 Структура проєкту
-bash
-Копіювати
-Редагувати
+
 rahul-selenium-tests/
 ├── cypress/
 │   ├── e2e/               # Тести
@@ -75,5 +65,4 @@ rahul-selenium-tests/
 Контактна інформація
 Автор: Олег Корнієць
 GitHub: https://github.com/O1korn
-Email: your-email@example.com
-
+Email: oleh.korniiets@gmail.com
